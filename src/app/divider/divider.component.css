@@ -1,0 +1,45 @@
+body {
+    font-family: Helvetica;
+    color: aliceblue;
+  }
+  .lower-section,
+  .upper-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(#2980b9, 0.5);
+  
+    
+  } 
+  span{
+    color: aliceblue;
+    font-size: 36px;
+  }
+  .upper-section {
+    min-height: 50vh;
+    width: 100%;
+    background: #6187ad;
+  }
+  .lower-section{
+    min-height: 50vh;
+    width: 100%;
+    background:  #6d8eb0da;
+  }
+  .section-divider {
+    position: relative;
+  }
+  .section-divider:before {
+        font-family: 'codepen';
+        content: "C"; 
+        width: 6.5rem;
+        height: 6.5rem;
+        background: #2c3e50;
+        border-radius: 100%;
+        position: absolute;
+        top: -3.25rem;
+        left: calc(50% - 3.25rem);
+        color: rgba(#ebf0f4, 0.5);
+        line-height: 6rem;
+        text-indent: 1.75rem;
+        font-size: 3rem;
+      }

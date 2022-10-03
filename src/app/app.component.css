@@ -1,0 +1,42 @@
+app-sidebar{
+    position: relative;
+    
+}
+.background{
+    min-width: 99%;
+    height: 700px;
+    position: absolute;
+    background-image:url('https://img.freepik.com/premium-photo/omni-channel-technology-online-retail-business_31965-3010.jpg?w=2000');
+    background-size: cover;
+}
+.heading{
+margin-top: 700px;
+}
+
+.navbar{
+    background-color: #6187ad;
+}
+.app-name{
+    position: relative;
+    margin-left: 75%;
+    margin-top: 8%;
+    border: 2px;
+    color:white;
+    font-size: 76px;
+}
+.notes{
+    position: relative;
+    margin-left: 75%;
+    margin-top: 8%;
+    border: 2px;
+    border-color: aliceblue;
+    color:white;
+    font-size: 24px;
+}
+ .grid{
+    margin-top: 1px;
+    padding-left: 10px;
+ }
+ app-card{
+   background-color:#8bb5df
+ } 
